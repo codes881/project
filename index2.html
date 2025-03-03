@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark px-3">
+        <a class="navbar-brand fw-bold text-white" href="#"><em>Grocery</em></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="search-box d-flex mx-auto">
+                <input type="text" class="form-control search-input" placeholder="Search grocery products" />
+                <button class="search-btn px-2">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <div class="ms-auto d-flex align-items-center flex-column flex-lg-row mt-3 mt-lg-0">
+                <div class="dropdown mx-3">
+                    <a href="#" class="nav-item dropdown-toggle" id="accountDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">My Account</a>
+                    <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+                        <li><a class="dropdown-item" href="#">My Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Order</a></li>
+                        <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                        <li><a class="dropdown-item" href="#">Notifications</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown mx-3">
+                    <a href="#" class="nav-item dropdown-toggle" id="moreDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                    <ul class="dropdown-menu" aria-labelledby="moreDropdown">
+                        <li><a class="dropdown-item" href="#">Become a Seller</a></li>
+                        <li><a class="dropdown-item" href="#">24*7 Customer Care</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="nav-item mx-3"><i class="bi bi-bag-check"></i></a>
+                <a href="#" class="nav-item mx-3"><img id="logo" src="./img/" alt="" /></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Line after navbar -->
+    <hr style="border: 1px solid #ccc; margin: 0;">
+    <!-- Content of the page can go here -->
+
+    <!--Catigiry-->
+    <div class="container">
+        <div class="category full-width">
+            <a href="rollingPaper.html"><img src="./img/Group-33704.webp" alt="Paan Corner" class="category-image"></a>
+            <!--<div class="category-content">
+                <h3>Paan Corner</h3>
+                <p>Your favorite paan shop is now online</p>
+                <button>Shop Now</button>
+            </div>-->
+        </div>
+    </div>
+    <div class="parent-div">
+        <div class="child-div">
+            <a href="dogFoodTeats.html"><img src="./img/Pet-Care_WEB.avif" alt="Pet-Care" ></a>
+        </div>
+        <div class="child-div">
+            <a href="pharmacy.html"><img src="./img/pharmacy-WEB.avif" alt="pharmacy"></a>
+        </div>
+        <div class="child-div">
+            <a href="diapersMore.html"><img src="./img/babycare-WEB.avif" alt="babycare"></a>
+        </div>
+    </div>
+    <!--End-->
+    <div class="category-section">
+        <div class="category-item">
+           <a href="index.html"><img src="./img/paan-corner_web.avif" alt="Paan Corner"></a> 
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Dairy, Bread & Eggs.avif" alt="Dairy, Bread & Eggs"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Fruits & Vegetables.avif" alt="Fruits & Vegetables"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Cold Drink & Juices.avif" alt="Cold Drinks & Juices"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Snacks & Munchies.avif" alt="Snacks & Munchies"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Breakfast & Insstant Food.avif" alt="Breakfast & Insstant Food"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Sweet Tooth.avif" alt="Sweet Tooth"></a>
+        </div>
+        <div class="category-item">
+            <img src="./img/Bakery &Bisscuts.avif" alt="Bakery & Bisscuts">
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Tea, Coffee & Health Drink.avif" alt="Tea, Coffee & Health Drink"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Atta, Rice & Dal.avif" alt="Atta, Rice & Dal"></a>
+        </div>
+    </div>
+
+    <div class="category-section">
+        <div class="category-item">
+           <a href="index.html"> <img src="./img/Baby Care.avif" alt="Baby Care"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Chicken, Meat & Fish.avif" alt="Chicken, Meat & Fish"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Sauces & Spreads.avif" alt="Sauces & Spreads"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Cleaning Essentials.avif" alt="Cleaning Essentials"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Home & Office.avif" alt="Home & Office"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Masala,, Oli & More.avif" alt="Masala, Oli & More"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Organic & Heealthy Living.avif" alt="Organic & Heealthy Living"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Personal Care.avif" alt="Personal Care"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Pharma & Wellness.avif" alt="Pharma & Wellness"></a>
+        </div>
+        <div class="category-item">
+            <a href="index.html"><img src="./img/Pet Care.avif" alt="Pet Care"></a>
+        </div>
+    </div>
+
+    <!-- Product List 0 -->
+
+    <div class="category-header">
+        <h2>Dairy, Bread & Eggs</h2>
+    </div>
+
+    <div class="product-section">
+        <button class="scroll-btn scroll-left" onclick="scrollProducts(-200)">&#10094;</button>
+
+        <div class="product-container" id="productContainer">
+            <!-- Product List -->
+            <div class="product-card">
+                <div class="offer-label">7% OFF</div>
+                <a href="p4.html"><img src="./img/Amul Gold Milk.avif" alt="Amul Gold Milk"></a>
+                <h3>Amul Gold Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <div class="price-container">
+                    <p class="price">₹33</p>
+                    <p class="old-price">₹40</p>
+                </div>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-shakti-milk.avif" alt="Amul Shakti Milk">
+                <h3>Amul Shakti Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <p class="price">₹30</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/Amul Gold Milk.avif" alt="Amul Masti Curd">
+                <h3>Amul Masti Curd</h3>
+                <p class="weight">200 g</p>
+                <p class="price">₹23</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-curd-1kg.avif" alt="Amul Masti Curd 1kg">
+                <h3>Amul Masti Curd</h3>
+                <p class="weight">1 kg</p>
+                <p class="price">₹75</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-taaza-milk.avif" alt="Amul Taaza Milk">
+                <h3>Amul Taaza Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <p class="price">₹27</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-butter.avif" alt="Amul Butter">
+                <h3>Amul Salted Butter</h3>
+                <p class="weight">100 g</p>
+                <p class="price">₹60</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/Super Crustless Bread.avif" alt="Super Crustless Bread">
+                <h3>Super Crustless Bread</h3>
+                <p class="weight">300 g</p>
+                <p class="price">₹50</p>
+                <button class="add-btn">ADD</button>
+            </div>
+            <div class="product-card">
+                <img src="./img/Pure Eggs Premium.avif" alt="Pure Eggs Premium">
+                <h3>Pure Eggs Premium</h3>
+                <p class="weight">6 pieces</p>
+                <p class="price">₹50</p>
+                <button class="add-btn">ADD</button>
+            </div>
+            <div class="product-card">
+                <img src="./img/Amul Cheese Cubes.avif" alt="Amul Cheese Cubes">
+                <h3>Amul Cheese Cubes</h3>
+                <p class="weight">200 g</p>
+                <p class="price">₹127</p>
+                <button class="add-btn">ADD</button>
+            </div>
+            <div class="product-card">
+                <img src="./img/Amul Cow Fresh Miilk.avif" alt="Amul Cow Fresh Miilk">
+                <h3>Amul Cow Fresh Miilk</h3>
+                <p class="weight">500 ml</p>
+                <p class="price">₹28</p>
+                <button class="add-btn">ADD</button>
+            </div>
+        </div>
+        <button class="scroll-btn scroll-right" onclick="scrollProducts(200)">&#10095;</button>
+    </div>
+
+    <!-- Product List 1 -->
+    <div class="category-header">
+        <h2>Rolling paper & tobacco</h2>
+    </div>
+
+    <div class="product-section">
+        <button class="scroll-btn scroll-left" onclick="scrollProducts1(-200)">&#10094;</button>
+
+        <div class="product-container" id="productContainer1">
+            <!-- Product List -->
+            <div class="product-card">
+                <div class="offer-label">7% OFF</div>
+                <img src="./img/Amul Gold Milk.avif" alt="Amul Gold Milk">
+                <h3>Amul Gold Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <div class="price-container">
+                    <p class="price">₹33</p>
+                    <p class="old-price">₹40</p>
+                </div>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-shakti-milk.avif" alt="Amul Shakti Milk">
+                <h3>Amul Shakti Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <p class="price">₹30</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/Amul Gold Milk.avif" alt="Amul Masti Curd">
+                <h3>Amul Masti Curd</h3>
+                <p class="weight">200 g</p>
+                <p class="price">₹23</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/Amul Gold Milk.avif" alt="Amul Masti Curd 1kg">
+                <h3>Amul Masti Curd</h3>
+                <p class="weight">1 kg</p>
+                <p class="price">₹75</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-taaza-milk.avif" alt="Amul Taaza Milk">
+                <h3>Amul Taaza Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <p class="price">₹27</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/amul-butter.avif" alt="Amul Butter">
+                <h3>Amul Salted Butter</h3>
+                <p class="weight">100 g</p>
+                <p class="price">₹60</p>
+                <button class="add-btn">ADD</button>
+            </div>
+
+            <div class="product-card">
+                <img src="./img/Super Crustless Bread.avif" alt="Super Crustless Bread">
+                <h3>Super Crustless Bread</h3>
+                <p class="weight">300 g</p>
+                <p class="price">₹50</p>
+                <button class="add-btn">ADD</button>
+            </div>
+            <div class="product-card">
+                <img src="./img/Pure Eggs Premium.avif" alt="Pure Eggs Premium">
+                <h3>Pure Eggs Premium</h3>
+                <p class="weight">6 pieces</p>
+                <p class="price">₹50</p>
+                <button class="add-btn">ADD</button>
+            </div>
+            <div class="product-card">
+                <img src="./img/Amul Cheese Cubes.avif" alt="Amul Cheese Cubes">
+                <h3>Amul Cheese Cubes</h3>
+                <p class="weight">200 g</p>
+                <p class="price">₹127</p>
+                <button class="add-btn">ADD</button>
+            </div>
+            <div class="product-card">
+                <img src="./img/Amul Cow Fresh Miilk.avif" alt="Amul Cow Fresh Miilk">
+                <h3>Amul Cow Fresh Miilk</h3>
+                <p class="weight">500 ml</p>
+                <p class="price">₹28</p>
+                <button class="add-btn">ADD</button>
+            </div>
+        </div>
+        <button class="scroll-btn scroll-right" onclick="scrollProducts1(200)">&#10095;</button>
+    </div>
+
+
+    <!-- Product List 2 -->
+    <div class="category-header">
+        <h2>Snacks & Munchies</h2>
+    </div>
+
+    <div class="product-section">
+        <button class="scroll-btn scroll-left" onclick="scrollProducts2(-200)">&#10094;</button>
+
+        <div class="product-container" id="productContainer2">
+            <!-- Product List -->
+            <div class="product-card">
+                <div class="offer-label">7% OFF</div>
+                <img src="./img/Amul Gold Milk.avif" alt="Amul Gold Milk">
+                <h3>Amul Gold Fresh Milk</h3>
+                <p class="weight">500 ml</p>
+                <div class="price-container">
+                    <p class="price">₹33</p>
+                    <p class="old-price">₹40</p>
+                </div>
+                <button class="add-btn">ADD</button>
+            </div>
+        </div>
+        <button class="scroll-btn scroll-right" onclick="scrollProducts2(200)">&#10095;</button>
+    </div>
+    <!-- Product List 3 -->
+    <div class="category-header">
+        <h2>Cold Drinks & Juices</h2>
+    </div>
+
+                <button class="scroll-btn scroll-left" onclick="scrollProducts1(-200)">&#10094;</button>
+        
+                <div class="product-container" id="productContainer3">
+                    <!-- Product List -->
+                    <div class="product-card">
+                        <div class="offer-label">7% OFF</div>
+                        <img src="./img/Amul Gold Milk.avif" alt="Amul Gold Milk">
+                        <h3>Amul Gold Fresh Milk</h3>
+                        <p class="weight">500 ml</p>
+                        <div class="price-container">
+                            <p class="price">₹33</p>
+                            <p class="old-price">₹40</p>
+                        </div>
+                        <button class="add-btn">ADD</button>
+                    </div>
+        
+                    <div class="product-card">
+                        <img src="./img/amul-shakti-milk.avif" alt="Amul Shakti Milk">
+                        <h3>Amul Shakti Fresh Milk</h3>
+                        <p class="weight">500 ml</p>
+                        <p class="price">₹30</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+        
+                    <div class="product-card">
+                        <img src="./img/Amul Gold Milk.avif" alt="Amul Masti Curd">
+                        <h3>Amul Masti Curd</h3>
+                        <p class="weight">200 g</p>
+                        <p class="price">₹23</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+        
+                    <div class="product-card">
+                        <img src="./img/Amul Gold Milk.avif" alt="Amul Masti Curd 1kg">
+                        <h3>Amul Masti Curd</h3>
+                        <p class="weight">1 kg</p>
+                        <p class="price">₹75</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+        
+                    <div class="product-card">
+                        <img src="./img/amul-taaza-milk.avif" alt="Amul Taaza Milk">
+                        <h3>Amul Taaza Fresh Milk</h3>
+                        <p class="weight">500 ml</p>
+                        <p class="price">₹27</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+        
+                    <div class="product-card">
+                        <img src="./img/amul-butter.avif" alt="Amul Butter">
+                        <h3>Amul Salted Butter</h3>
+                        <p class="weight">100 g</p>
+                        <p class="price">₹60</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+        
+                    <div class="product-card">
+                        <img src="./img/Super Crustless Bread.avif" alt="Super Crustless Bread">
+                        <h3>Super Crustless Bread</h3>
+                        <p class="weight">300 g</p>
+                        <p class="price">₹50</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/Pure Eggs Premium.avif" alt="Pure Eggs Premium">
+                        <h3>Pure Eggs Premium</h3>
+                        <p class="weight">6 pieces</p>
+                        <p class="price">₹50</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/Amul Cheese Cubes.avif" alt="Amul Cheese Cubes">
+                        <h3>Amul Cheese Cubes</h3>
+                        <p class="weight">200 g</p>
+                        <p class="price">₹127</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="./img/Amul Cow Fresh Miilk.avif" alt="Amul Cow Fresh Miilk">
+                        <h3>Amul Cow Fresh Miilk</h3>
+                        <p class="weight">500 ml</p>
+                        <p class="price">₹28</p>
+                        <button class="add-btn">ADD</button>
+                    </div>
+                </div>
+                <button class="scroll-btn scroll-right" onclick="scrollProducts1(200)">&#10095;</button>
+            </div>
+        
+
+    <br>
+    <br>
+    <!--Footer Section-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="head">ABOUT</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="head">HELP</h3>
+                <ul>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="head">CONSUMER POLICY</h3>
+                <ul>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Mail Us:</h3>
+                <p>Silvassa Mart Pvt. Ltd., <br>
+                    Silvassa, Dadra and Nagar Haveli, India</p>
+                <h3>Social</h3>
+                <div class="footer-social">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div>
+            <a href="#"><i class="bi bi-shop"></i> Become a Seller</a>
+            <a href="#"><i class="bi bi-megaphone"></i> Advertise</a>
+            <a href="#"><i class="bi bi-gift"></i> Gift Cards</a>
+            <a href="#"><i class="bi bi-info-circle"></i> Help Center</a>
+        </div>
+    </div>
+
+    <!--End-->
+
+
+    <script>
+        function scrollProducts(scrollValue) {
+            document.getElementById("productContainer").scrollBy({ left: scrollValue, behavior: "smooth" });
+        }
+        function scrollProducts1(scrollValue) {
+            document.getElementById("productContainer1").scrollBy({ left: scrollValue, behavior: "smooth" });
+        }
+        function scrollProducts2(scrollValue) {
+            document.getElementById("productContainer2").scrollBy({ left: scrollValue, behavior: "smooth" });
+        }
+        function scrollProducts3(scrollValue) {
+            document.getElementById("productContainer3").scrollBy({ left: scrollValue, behavior: "smooth" });
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
